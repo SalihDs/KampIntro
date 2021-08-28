@@ -10,5 +10,10 @@ namespace OOP1
         {
             Console.WriteLine("Eklendi : "+product.ProductName);
         }
+        public void Update(Product product)
+        {
+            Console.WriteLine(product.ProductName+" Güncellendi.");
+        }
+        
     }
 }
